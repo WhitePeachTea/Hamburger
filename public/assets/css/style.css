@@ -1,1 +1,92 @@
-/* add your css here */
+body{
+    font-family: "Lucidatypewriter, monospace";
+    background:	#b7dfd2;
+    padding:0;
+  }
+  
+  li {
+    padding: 5px;
+    margin: 5px;
+    background: #fffae6;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .form-group {
+    margin-bottom: 5px;
+  }
+  .pageHead {
+    font-size: 40px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+  .burgerListsSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+  }
+
+  .burgerItem {
+    box-sizing: border-box;
+    width: 200px;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+    padding:0.5em 0 .5em 0;
+    border-radius: 8px;
+    background:	#fffd79;
+    font-size:24px;
+  }
+
+  .devourButton {
+    width: 120px;
+    height: 40px;
+    font-size:14px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: #ff918e;
+  }
+
+  .burgerList {
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .burgerItem.devoured{
+    background:	#ffebeb;
+    color: #97ab9c;
+  }
+
+  #burgerName{
+    height:25px;
+  }
+
+  ul{
+    padding:0;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height:100px;
+  }  
+  
+  .create-form {
+    padding: 10px;
+    margin: 10px;
+    background: #9bb1d6;
+  }
+  
